@@ -1,0 +1,256 @@
+body{
+    background-color: #46DCC1;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%; 
+    height: 100%; 
+    justify-content: 
+    space-between; 
+    align-items: center; 
+    display: inline-flex; 
+    /* position:fixed; */
+    top:0;  
+}
+    
+    
+
+
+.header-left{
+    height: 24px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 52px; 
+    display: flex;
+}
+
+.header-right{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 32px; 
+    display: flex
+}
+
+.menu{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 32px; 
+    display: flex;
+}
+
+.menu-item{
+    color: white; 
+    font-size: 14px; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: 500; 
+    line-height: 19.60px; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.logo{
+    width: 120px; 
+    height: 24px; 
+    padding-right: 12px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex; 
+}
+
+.join-us{
+    width: 120px; 
+    height: 40px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    background: #0CA694; 
+    border-radius: 12px; 
+    border: 1px white solid; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex; 
+}
+
+.button{
+    width: 100%; 
+    height: 24px; 
+    text-align: center; 
+    color: white; 
+    padding: 0;
+    font-size: 14px; 
+    font-family: Abhaya Libre; 
+    font-weight: 700; 
+    /* line-height: 19.60px;  */
+    word-wrap: break-word; 
+    background: #0CA694; 
+    border:none; 
+}
+
+
+/* Rest of your CSS remains unchanged */
+
+
+.welcome{
+    color: #086D3C; 
+    font-size: 12px; 
+    font-family: Abril Fatface; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    line-height: 16.80px; 
+    word-wrap: break-word; 
+}
+
+.slogan{
+    align-self: stretch; 
+    color: #023F30; 
+    font-size: 72px; 
+    font-family: Abril Fatface; 
+    font-weight: 400; 
+    text-transform: capitalize; 
+    word-wrap: break-word; 
+}
+
+.about-us{
+    align-self: stretch; color: #00331E; font-size: 16px; font-family: Abyssinica SIL; font-weight: 400; line-height: 22.40px; word-wrap: break-word; 
+}
+
+.get-started-container{
+    padding-left: 32px; 
+    padding-right: 32px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    background: #0CA694; 
+    border-radius: 16px; justify-content: flex-start; 
+    align-items: center; gap: 8px; display: inline-flex; 
+}
+
+.get-started{
+    width: 4.5rem; height: auto; 
+    /* position: relative;   */
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.main-content {
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+    margin: 0.5rem;
+    margin-left: 0.5px;
+}
+
+.side-images {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.main-top {
+    align-self: flex-start;
+    height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: flex;
+}
+
+.image-container{
+    height: 100%;
+    padding: 0;
+}
+/* Position images absolutely within the .side-images container */
+.image-style {
+    position: absolute;
+    box-shadow: 0px 4.4px 17.06px rgba(28, 29, 30, 0.06);
+}
+
+/* Rest of your CSS remains unchanged */
+.second{
+    width: 350px; 
+    height: 400px; 
+    left: 262px; 
+    top: 20px;  
+    border-radius: 12px; 
+}
+
+.third{
+    width: 369px; 
+    height: 190px; 
+    left: 31px; 
+    top: 200px; 
+    position: absolute; 
+    box-shadow: 0px 4.400000095367432px 17.0625px rgba(28, 29, 30, 0.06);
+}
+
+
+
+.sixth{
+   width: 240px; 
+   height: 142px; 
+   left: 119px; 
+   top: 40px; 
+   position: absolute; 
+   box-shadow: 0px 4.400000095367432px 17.0625px rgba(28, 29, 30, 0.06);
+}
+
+
+.card {
+    
+    
+    transition: transform .2s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+
+    border: 1px solid hsl((161, 39%, 41%), 0%, 87%); /* Add your desired border color */
+
+    /* margin: 0 auto; */
+}
+  
+.card:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.button-all{
+    border: none;
+    outline: none;
+    padding: 0.5em 1.0em;
+    border-radius: 40px;
+    transition: all 0.3s;
+}  
+
+.button-primary{
+    background: var(--slate-gray);
+    color: var(--light-gray);
+}
+  
+.button-primary:hover{
+background-color: #E5E5E5;
+}
+
+.button-primary:hover{
+    text-decoration: none;
+    color : white;
+}
+
+
+.img-buy-coffee{
+    width: 35px;
+    height: 35px;
+  }
